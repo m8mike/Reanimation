@@ -17,10 +17,10 @@ package {
 		private var animConfig:AnimConfig;
 		
 		public var currentAnimation:MovieClip;
-		public static var thisIs:Reanimation;
 		public var tree:ChildVisTree;
 		public var frameSwitcher:FrameSwitcher;
 		public var animSelect:DropDownMenu;
+		public static var thisIs:Reanimation;
 		
 		public function Reanimation() {
 			thisIs = this;
